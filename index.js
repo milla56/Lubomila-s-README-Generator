@@ -25,6 +25,7 @@ const questions = [
         type:'input',
         name: 'installation',
         message: 'What are the steps required to install your project?',
+        default: "npm install",
 
     },
 
@@ -55,7 +56,8 @@ const questions = [
             'GNU Lesser General Public License v2.1',
             'Mozilla Public License 2.0',
             'The Unlicense',
-        ]
+        ],
+        default: "MIT License",
     },
 
     //Contributing
@@ -100,7 +102,10 @@ function init() {
     inquirer.prompt(questions).then((answers) => {
         const markdown = generateMarkdown(answers);
         writeToFile("README.md", markdown);
+    }).catch((error) =>{
+        console.log(error)
     });
+    
 
 }
 
