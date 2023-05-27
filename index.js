@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+const { default: Choices } = require("inquirer/lib/objects/choices");
 
 // array of questions for user
 const questions = [
@@ -29,7 +30,7 @@ const questions = [
 
     },
 
-    //USAGE
+    // USAGE
     {
         type: 'input',
         name: 'usage',
@@ -41,7 +42,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose your License',
-        licenseEl:[
+        choices:[
             'None',
             'Apache License 2.0',
             'GNU General Public License v3.0',
