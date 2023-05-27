@@ -75,7 +75,7 @@ const questions = [
         default: 'npm test'
     },
 
-     //Questions 
+     //Questions - github and email
      {
         type:'input',
         name: 'github',
