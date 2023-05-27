@@ -75,7 +75,7 @@ const questions = [
         default: 'npm test'
     },
 
-     //Questions - github and email
+     //Questions - github and ema
      {
         type:'input',
         name: 'github',
@@ -92,10 +92,15 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions).then((answers) => {
+        const markdown = generateMarkdown(answers);
+        writeToFile("README.md", markdown);
+    });
 
 }
 
