@@ -64,7 +64,7 @@ const questions = [
     //Contributing
     {
         type: 'input',
-        name: 'Contributing',
+        name: 'contributing',
         message: 'Who are the contributors to your project?',
         
     },
@@ -78,7 +78,7 @@ const questions = [
         default: 'npm test'
     },
 
-     //Questions - github and ema
+     //Questions - github and email
      {
         type:'input',
         name: 'github',

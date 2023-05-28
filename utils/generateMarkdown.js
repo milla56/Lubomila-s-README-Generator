@@ -36,7 +36,7 @@ function generateMarkdown(data) {
   This app is using ${licenseBadge(data.license)}.
 
   ## Contributors
-  ${data.contributors}
+  ${data.contributing}
 
   ## Test
   ${data.test}

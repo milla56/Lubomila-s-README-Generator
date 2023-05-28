@@ -69,6 +69,7 @@ the user can contact the developer, regarding additional questions.
 - Node JS
 - ES6 
 - Inquirer package - version 6.5.2
+- Shields IO - Readme License Guide
 
 
 ## Credits
