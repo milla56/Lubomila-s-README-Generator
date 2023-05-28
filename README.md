@@ -22,7 +22,7 @@ quickly to generate Readme file.
 
 - Clone the GitHub repository to your computer.
 - Navigate to your terminal and use the following command "node index.js".
-- Follow the link for the video submission [Video]() 
+- Follow the link for the video submission [Video](https://drive.google.com/file/d/111jO54jpuRmbQlw7DTobZX7uxLsc2Vxu/view) 
 
 
 ## User Story 
@@ -51,6 +51,12 @@ The list shows what steps were made to complete the challenge:
 will be added to the sections of the Readme file.
 - When the user chooses a License, the badge will be added at the top of the Readme file and under "License" section. To make the
 license badges appear , I follow a "Markdown License Badge" guide.  
+- When the user chooses the License, the badge will be presented in grey and blue colors.
+
+![license](./screenshot/icon%201.png) 
+![license](./screenshot/icon%202.png) 
+![license](./screenshot/icon3.png) 
+![license](./screenshot/icon4.png)
 - When the user types the email and GitHub account, this information will be added to the "Questions" section and like this
 the user can contact the developer, regarding additional questions.
 - When the user clicks on the sections in the Table of Contents, they are taken to the corresponding section of the README.
