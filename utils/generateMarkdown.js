@@ -1,11 +1,10 @@
 // function that runs license badge 
 function licenseBadge (license){
   if (license !== "none"){
-    return `![GitHub license](https://img.shields.io/badge/${license}-blue.svg)`;
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
   }
   return "";
 }
-
 
 
 // function to generate markdown for README
@@ -21,6 +20,8 @@ function generateMarkdown(data) {
   - [Contributors](#contributors)
   - [Test](#test)
   - [Questions](#questions)
+
+ 
 
   ## Description
   ${data.description}
@@ -40,9 +41,11 @@ function generateMarkdown(data) {
   ## Test
   ${data.test}
 
+
   ## Questions
   If you have any questions, please contact me at ${data.email} or follow me at 
   [GitHub Profile](https://github.com/${data.github}).
+
 
 `;
 }
