@@ -1,7 +1,7 @@
 // function that runs license badge 
 function licenseBadge (license){
   if (license !== "none"){
-    return `![GitHub license](https://img.shields.io/badge/License-${license}-blue.svg)`;
+    return `![GitHub license](https://img.shields.io/badge/${license}-blue.svg)`;
   }
   return "";
 }
@@ -11,6 +11,7 @@ function licenseBadge (license){
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${licenseBadge(data.license)}
 
   ## Table Of Contents
   - [Description](#description)
