@@ -3,6 +3,7 @@
 
  ## Table Of Contents
   - [Description](#description)
+  - [Video-Submission](#video-submission)
   - [Installation](#installation)
   - [User-Story](#user-story)
   - [Usage](#usage)
@@ -17,12 +18,15 @@
 using the Inquirer package. The aim of this project is to help developers to devote more time to work on their projects and
 quickly to generate Readme file.
 
+## Video Submission
+Follow the link for the video submission [Video](https://drive.google.com/file/d/111jO54jpuRmbQlw7DTobZX7uxLsc2Vxu/view) 
+
 
 ## Installation
 
 - Clone the GitHub repository to your computer.
 - Navigate to your terminal and use the following command "node index.js".
-- Follow the link for the video submission [Video](https://drive.google.com/file/d/111jO54jpuRmbQlw7DTobZX7uxLsc2Vxu/view) 
+ 
 
 
 ## User Story 
